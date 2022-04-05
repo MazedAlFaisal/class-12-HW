@@ -1,0 +1,81 @@
+/* Common Css Start */
+*{
+   margin: 0;
+   padding: 0;
+   outline: 0;
+   box-sizing: border-box;
+}
+body{
+   font-family: 'Lato', sans-serif;
+}
+ol, ul{
+   list-style-type: none;
+}
+a{
+   text-decoration: none;
+}
+.container{
+   width: 1170px;
+   margin: 0 auto;
+}
+.row{
+   display: flex;
+   flex-wrap: wrap;
+}
+/* //Common Css End */
+
+/* Nav Section Css Start */
+nav{
+   background-color: #131e29;
+}
+nav .row{
+   align-items: center;
+}
+nav .logo{
+   width: 20%;
+}
+nav .logo img{
+   display: block;
+}
+nav .menu{
+   width: 80%;
+}
+nav .menu ul{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: flex-end;
+}
+nav .menu ul li a{
+   display: inline-block;
+   color: white;
+   padding: 20px 15px;
+}
+/* //Nav Section Css End */
+
+/* Banner Section Css Start */
+#banner{
+   background-image: url(../img/banner.jpg);
+   height: 700px;
+   background-size: cover;
+   background-position: center;
+   position: relative;
+   overflow: hidden;
+}
+#banner .container,
+#banner .container .row{
+   height: 100%;
+}
+#banner .row{
+   align-items: center;
+}
+#banner .banner_img{
+   width: 40%;
+   background-color: red;
+}
+#banner .banner_img img{
+   height: 100%;
+   position: absolute;
+   left: 0;
+   bottom: -100px;
+}
+/* //Banner Section Css End */
